@@ -61,6 +61,9 @@ extensions:
 test:
 	${DOCKER_COMPOSE} exec orator poetry run pytest tests
 
+update:
+	${DOCKER_COMPOSE} exec orator poetry update
+	
 start-containers:
 	${DOCKER_COMPOSE} up -d
 

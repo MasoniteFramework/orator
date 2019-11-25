@@ -58,5 +58,5 @@ orator = 'orator.commands.application:application.run'
 
 
 [build-system]
-requires = ["poetry>=0.12a3"]
+requires = ["poetry>=0.12a3,<=1.0.0a1"]
 build-backend = "poetry.masonry.api"
